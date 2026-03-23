@@ -1,6 +1,6 @@
 # 👋 Hi, I'm a Backend Developer
 
-I build backend systems, Telegram bots, and experimental tools with Python, FastAPI, and C++.
+I build backend services, Telegram bots, and automation tools using FastAPI and Python.
 
 ---
 
@@ -94,9 +94,9 @@ Telegram bot for tracking nutrition, calories, and weight progress
 
 ## 📌 About Me
 
-* I enjoy building real working systems, not just demos
+* I focus on building working systems and MVPs, not just demo projects.
 * Interested in backend architecture, async systems, and automation
-* Also explore low-level programming and graphics (C/C++)
+* Also work with C/C++ on low-level and graphics-related projects.
 
 ---
 

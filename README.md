@@ -1,106 +1,122 @@
-# 👋 Hi, I'm a Backend Developer
+# Hi, I'm Ivan 👋
 
-I build backend services, Telegram bots, and automation tools using FastAPI and Python.
+Python backend developer focused on building APIs, asynchronous services, automation tools and Telegram-based products.
 
----
+I work mainly with **FastAPI, PostgreSQL, SQLAlchemy, Redis, Celery and Docker**.
+I prefer building complete working systems: from API and database design to background jobs, integrations, deployment and testing.
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### [🎯 Adrenaline Generator](https://github.com/ad-renaline-team/ad-renaline-generator)
+### ⚙️ [FastAPI Task Manager](https://github.com/zero2630/fastapi-task-manager)
 
-AI-powered Telegram Ads banner generator
+Async REST API for managing personal tasks.
 
-* FastAPI + Celery + Redis + RabbitMQ
-* LLM-based copywriting & prompt parsing
-* Local image generation (ComfyUI)
-* Docker + GPU infrastructure
-
----
-
-### [⚙️ FastAPI Task Manager](https://github.com/zero2630/fastapi-task-manager)
-
-Production-style FastAPI backend template
-
-* Async SQLAlchemy 2.0
+* FastAPI
+* Async SQLAlchemy 2.0 + PostgreSQL
 * JWT authentication
-* Rate limiting
-* Clean architecture
+* Redis-backed rate limiting
+* Alembic migrations
+* pytest
+* Docker Compose
+
+The project demonstrates authentication, user-scoped resources, database migrations and a layered backend structure.
 
 ---
 
-### [🤖 Aiogram Bot Template](https://github.com/zero2630/aiogram-bot-template)
+### 📊 [FastAPI Report Export](https://github.com/zero2630/fastapi-report-export)
 
-Reusable template for building Telegram bots
+Backend service for asynchronous text processing and Excel report generation.
 
-* Middleware (anti-spam, admin)
-* Filters and handlers
-* Scalable structure
+* FastAPI
+* Celery + Redis
+* Background processing
+* Chunked file uploads
+* Russian word normalization with `pymorphy3`
+* XLSX report generation
+* Docker
 
----
-
-### [🧠 BottlesBot](https://github.com/zero2630/BottlesBot)
-
-Anonymous messaging Telegram bot
-
-* Reached ~200 active users
-* Full product lifecycle experience
+Processing is moved to background workers so long-running jobs do not block the API.
 
 ---
 
-### [🧱 Zero Engine (C++)](https://github.com/zero2630/zero-engine)
+### 🥗 [Weight Control Bot](https://github.com/zero2630/weight-control-bot)
 
-Raycasting engine with map editor
+Telegram bot for tracking nutrition and body-weight progress.
 
-* Custom rendering
-* Level editor
-* Low-level graphics work
+* aiogram 3
+* GPT API integration
+* Natural-language food input
+* Calorie and macro estimation
+* Weight and nutrition statistics
+* Scheduled reminders
+* SQLite
+* Docker
 
----
-
-### [🥗 Body Weight Bot](https://github.com/zero2630/weight-control-bot)
-
-Telegram bot for tracking nutrition, calories, and weight progress
-
-* Natural language food input → GPT-based calorie & macro estimation
-* Daily tracking, progress stats (7/30/90 days)
-* Reminders and goal management
-* SQLite storage + aiogram architecture
+The project includes external API integration, response validation, retries and timeout handling.
 
 ---
 
-## 🧰 Tech Stack
+### 🧠 [BottlesBot](https://github.com/zero2630/BottlesBot)
 
-**Backend:**
+Anonymous messaging Telegram bot that reached approximately **200 active users**.
 
-* Python (FastAPI, aiogram)
+The project gave me practical experience with maintaining a real product, working with user flows, moderation, anti-spam logic, database migrations and iterative feature development.
 
-**Databases & Tools:**
+## Tech Stack
 
-* PostgreSQL, Redis
+**Backend**
+
+* Python
+* FastAPI
+* aiogram
 * SQLAlchemy 2.0
+* Pydantic
 
-**Infra:**
+**Databases & Infrastructure**
 
-* Docker, Docker Compose
-* Celery, RabbitMQ
+* PostgreSQL
+* Redis
+* SQLite
+* Alembic
+* Celery
+* Docker
+* Docker Compose
 
-**Other:**
+**Development**
+
+* pytest
+* REST APIs
+* Async Python
+* Git
+* Linux
+
+**Additional**
 
 * C / C++
 * SFML
-* Parsing / scraping
+* Web scraping and automation
 
----
+## Other Projects
 
-## 📌 About Me
+### 🧱 [Zero Engine](https://github.com/zero2630/zero-engine)
 
-* I focus on building working systems and MVPs, not just demo projects.
-* Interested in backend architecture, async systems, and automation
-* Also work with C/C++ on low-level and graphics-related projects.
+Small C++ raycasting engine with a custom map editor built using SFML.
 
----
+It was one of my projects for exploring lower-level programming, rendering and game-engine fundamentals.
 
-## 📫 Contact
+## What I'm interested in
 
-* Telegram: @worthvoid
-* Email: [ivanmanannikov2006@mail.ru](mailto:ivanmanannikov2006@mail.ru)
+I'm currently focused on growing as a **Python backend developer**, especially in:
+
+* backend architecture;
+* asynchronous systems;
+* databases and data-intensive services;
+* background processing;
+* API integrations;
+* production-oriented Python development.
+
+## Contact
+
+Telegram: **@worthvoid**
+
+Email: **[ivanmanannikov96@gmail.com](mailto:ivanmanannikov96@gmail.com)**
